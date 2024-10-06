@@ -15,7 +15,7 @@ We take our open source community seriously and hold ourselves and other contrib
 
 We use `poetry` to manage and install dependencies. [Poetry](https://python-poetry.org/) provides a custom installer that will install `poetry` isolated from the rest of your system.
 
-```
+``` shell
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python -
 ```
 
@@ -23,7 +23,7 @@ We'll also need `nox` for automated testing in multiple Python environments so [
 
 To install the local development requirements inside a virtual environment run:
 
-```
+``` shell
 $ poetry install
 $ poetry run inv install-hooks
 ```
@@ -72,4 +72,4 @@ execute `inv[oke] lint` and `inv[oke] format`.
 
 ## Additional Notes
 
-If you have any question feel free to contact us at fedejaure@gmail.com.
+If you have any question feel free to contact us at {{ cookiecutter.contact_method }}.

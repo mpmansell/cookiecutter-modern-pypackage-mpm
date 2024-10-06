@@ -1,5 +1,7 @@
 """Tests for `cookiecutter-modern-pypackage` package."""
 
+# TODO Add tests for Argparse and Click
+
 import datetime
 import os
 import shlex

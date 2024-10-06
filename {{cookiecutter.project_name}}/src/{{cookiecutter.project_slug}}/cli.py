@@ -1,5 +1,7 @@
 """Console script for {{ cookiecutter.project_name }}."""
 
+# TODO Add code for Argparse and Click
+
 from typing import Annotated, Optional
 
 import typer

@@ -1,13 +1,14 @@
 {
-  "given_names": "Federico",
-  "family_names": "Jaureguialzo",
+  "given_names": "Mark Peter",
+  "family_names": "Mansell",
   "full_name": "{{ cookiecutter.given_names }} {{ cookiecutter.family_names }}",
-  "email": "fedejaure@example.com",
-  "github_username": "fedejaure",
-  "project_name": "modern-python-boilerplate",
+  "alias": "mpmansell",
+  "email": "mpmansell@gmail.com",
+  "github_username": "mpmansell",
+  "project_name": "mpm-python-boilerplate",
   "project_slug": "{{ cookiecutter.project_name.lower().replace('-', '_') }}",
   "project_title": "{{ cookiecutter.project_name.replace('-', ' ').title() }}",
-  "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a modern Python package.",
+  "project_short_description": "Python Boilerplate for {{ cookiecutter.given_names }} {{ cookiecutter.family_names }}'s projects",
   "version": "0.1.0",
   "open_source_license": [
     "MIT",
@@ -18,6 +19,8 @@
     "Not open source"
   ],
   "command_line_interface": [
+    "Argparse",
+    "Click",
     "Typer",
     "No command-line interface"
   ],
@@ -27,5 +30,5 @@
   "add_codeowners_file": "y",
   "add_funding_file": "y",
   "add_citation_file": "y",
-  "contact_method": null
+  "contact_method": "mark.mansell@gmail.com"
 }

@@ -17,6 +17,9 @@ family_names
 full_name
     Your full name. Typically, it is the combination of your given and family names.
 
+alias
+    The alias to use in the 'CITATION.cff' file
+
 email
     Your email address.
 
@@ -47,7 +50,7 @@ open_source_license
     Whether to add a license file. Options: ["MIT", "BSD", "ISC", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"s]
 
 command_line_interface
-    Whether to create a console script using Typer. Console script entry point will match the project_name. Options: ["Typer", "No command-line interface"]
+    Whether to optionally create a console script using Argparse, Click, or Typer. Console script entry point will match the project_name. Options: [ "Argparse", "Click", "Typer", "No command-line interface"]
 
 add_code_of_conduct
     Whether to add a Contributor Covenant Code of Conduct file.

@@ -1,5 +1,7 @@
 """Tests for `{{ cookiecutter.project_slug }}`.cli module."""
 
+# TODO Add support for testing Argparse and Click
+
 from typing import List
 
 import pytest
